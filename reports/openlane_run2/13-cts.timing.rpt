@@ -1,0 +1,23 @@
+Clock Tree Synthesis (CTS) Timing Summary
+=========================================
+
+Design: lockin_top
+Technology: SKY130A
+OpenLane run: run2
+Target clock period: 10.00 ns (100 MHz)
+
+Source:
+logs/cts/13-cts.log
+
+Extracted timing metrics:
+Worst Negative Slack (WNS): -4.67 ns
+Total Negative Slack (TNS): -77.73 ns
+
+Status:
+Setup timing violations are present at the CTS stage.
+Timing closure has not been achieved at this stage.
+
+Note:
+This file is a summary reconstructed from the CTS log.
+It is not the original detailed timing-path report.
+Refer to logs/cts/13-cts.log for the underlying timing output.
