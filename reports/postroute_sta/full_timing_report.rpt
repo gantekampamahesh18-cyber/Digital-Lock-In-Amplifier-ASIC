@@ -1,0 +1,69 @@
+OpenSTA 2.4.0 ac3479bc24 Copyright (c) 2021, Parallax Software, Inc.
+License GPLv3: GNU GPL version 3 <http://gnu.org/licenses/gpl.html>
+
+This is free software, and you are free to change and redistribute it
+under certain conditions; type `show_copying' for details. 
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show_warranty'.
+Warning: /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib line 23, default_fanout_load is 0.0.
+Warning: results/lvs/lockin_top.lvs.powered.v line 16329, module sky130_fd_sc_hd__tapvpwrvgnd_1 not found. Creating black box for PHY_136.
+Warning: results/lvs/lockin_top.lvs.powered.v line 17940, module sky130_fd_sc_hd__fill_2 not found. Creating black box for FILLER_0_27.
+Warning: results/lvs/lockin_top.lvs.powered.v line 17976, module sky130_fd_sc_hd__fill_1 not found. Creating black box for FILLER_0_88.
+Startpoint: _3936_ (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: i_accum[15] (output port clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ _3936_/CLK (sky130_fd_sc_hd__dfxtp_2)
+   0.41    0.41 ^ _3936_/Q (sky130_fd_sc_hd__dfxtp_2)
+  18.32   18.73 ^ output25/X (sky130_fd_sc_hd__clkbuf_2)
+   0.00   18.73 ^ i_accum[15] (out)
+          18.73   data arrival time
+
+  10.00   10.00   clock core_clock (rise edge)
+   0.00   10.00   clock network delay (ideal)
+  -0.20    9.80   clock uncertainty
+   0.00    9.80   clock reconvergence pessimism
+  -1.00    8.80   output external delay
+           8.80   data required time
+---------------------------------------------------------
+           8.80   data required time
+         -18.73   data arrival time
+---------------------------------------------------------
+          -9.93   slack (VIOLATED)
+
+
+Startpoint: _3895_ (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: _3895_ (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ _3895_/CLK (sky130_fd_sc_hd__dfxtp_1)
+   0.33    0.33 ^ _3895_/Q (sky130_fd_sc_hd__dfxtp_1)
+   0.14    0.48 ^ _3746_/X (sky130_fd_sc_hd__o211a_1)
+   0.00    0.48 ^ _3895_/D (sky130_fd_sc_hd__dfxtp_1)
+           0.48   data arrival time
+
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.20    0.20   clock uncertainty
+   0.00    0.20   clock reconvergence pessimism
+           0.20 ^ _3895_/CLK (sky130_fd_sc_hd__dfxtp_1)
+  -0.02    0.18   library hold time
+           0.18   data required time
+---------------------------------------------------------
+           0.18   data required time
+          -0.48   data arrival time
+---------------------------------------------------------
+           0.30   slack (MET)
+
+
+worst slack -9.93
+tns -479.09
