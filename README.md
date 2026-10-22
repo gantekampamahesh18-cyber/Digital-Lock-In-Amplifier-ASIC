@@ -2,7 +2,7 @@
 
 An RTL-to-physical-design project implementing a digital lock-in amplifier using Verilog HDL and the SKY130A open-source process design kit. The project covers RTL simulation, synthesis, floorplanning, placement, routing, and static timing analysis (STA) using an OpenLane-based flow.
 
-> **Project status:** OpenLane run2 completed. The current implementation has timing violations and reported antenna violations, so it should be treated as a working implementation rather than a timing-closed, signoff-ready ASIC.
+> **Project status:** OpenLane run2 completed. The current implementation has reported antenna violations, so it should be treated as a working implementation rather than a timing-closed, signoff-ready ASIC.
 
 ## Table of Contents
 
