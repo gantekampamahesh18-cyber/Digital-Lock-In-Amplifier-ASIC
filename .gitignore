@@ -1,0 +1,13 @@
+# Simulation outputs
+lockin_sim
+lockin.vcd
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# OpenLane temporary and generated files
+tmp/
