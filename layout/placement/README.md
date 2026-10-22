@@ -22,7 +22,7 @@ The placement DEF file is `lockin_top.placement.def`, available under the OpenLa
 The placement stage completed as part of the successful OpenLane run. The placed design can be inspected using Magic with the appropriate SKY130A technology configuration.
 
 ## Screenshot
-Upload a Magic screenshot showing the standard-cell placement as `placement_magic.png`.
+Upload a Magic screenshot showing the standard-cell placement as `lockinplacement.png`.
 
 ## Note
 Placement determines the physical locations of standard cells. Clock-tree synthesis and routing follow in subsequent stages.
