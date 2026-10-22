@@ -24,7 +24,7 @@ The floorplan was generated successfully as part of the completed OpenLane run.
 The final design reports approximately **49% core utilization**. This is a final-run metric and should not be interpreted as a floorplan-only measurement unless confirmed by the floorplan report.
 
 ## Screenshot
-Upload a Magic screenshot showing the floorplanned design as `floorplan_magic.png`.
+Upload a Magic screenshot showing the floorplanned design as `lockinfloorplan.png`.
 
 ## Note
 The floorplan view shows the early physical organization of the design before detailed standard-cell placement and routing.
