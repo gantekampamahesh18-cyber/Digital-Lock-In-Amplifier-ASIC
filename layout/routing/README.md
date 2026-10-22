@@ -31,7 +31,7 @@ The routed DEF file is `lockin_top.def`, available under the OpenLane run direct
 The target clock period was 10 ns (100 MHz). The negative worst negative slack (WNS) indicates that the design does not meet the target timing constraint. Timing optimization is a recommended next step.
 
 ## Screenshot
-Upload a Magic screenshot showing the routed layout as `routing_magic.png`.
+Upload a Magic screenshot showing the routed layout as `lockinrouting.png`.
 
 ## Note
 The OpenLane flow completed successfully, but the final results still contain timing and antenna violations. These should be documented and addressed in future optimization work.
