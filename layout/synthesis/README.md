@@ -19,7 +19,7 @@ The top-level module is `lockin_top`. The synthesis flow translates the RTL logi
 The synthesized design contains **2011 standard cells** according to the final OpenLane run summary.
 
 ## Screenshot
-Upload the synthesis statistics screenshot to this folder as `synthesis_statistics.png`.
+Upload the synthesis statistics screenshot to this folder as `synthesis.png`.
 
 ## Note
 The synthesized netlist represents the logical implementation of the design. It does not yet contain the physical placement and routing geometry required for a physical layout view in Magic.
